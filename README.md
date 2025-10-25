@@ -34,3 +34,15 @@ And then build and run
 ![BC1F4444-CF62-4A06-A93E-9FCBD411561F](https://p.ipic.vip/nijopk.png)
 
 ![BC1F4444-CF62-4A06-A93E-9FCBD411561F](https://p.ipic.vip/3r7656.png)
+
+
+
+
+
+
+
+
+
+create the weibo actor
+
+![image-20251025211230127](https://p.ipic.vip/urhvbm.png)
