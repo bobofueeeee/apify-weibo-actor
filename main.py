@@ -20,5 +20,10 @@ async def main() -> None:
     """
     async with Actor:
         Actor.log.info('Hello from the Actor!')
-        Actor.push_data({"test":"213"})
+        await Actor.push_data({"test":"213"})
         # Write your code here
+
+
+if __name__ == '__main__':
+    import asyncio
+    asyncio.run(main())

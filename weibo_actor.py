@@ -62,7 +62,7 @@ async def fetch_weibo_hot_search() -> list[dict]:
                     'timestamp': asyncio.get_event_loop().time()  # Using event loop time as timestamp
                 })
 
-        print("return data_list")
+        Actor.log.info('return Weibo hot search data ')
 
         return data_list
 
@@ -79,7 +79,7 @@ async def main() -> None:
         # Fetch Weibo hot search data
         weibo_data = await fetch_weibo_hot_search()
 
-        print("actor push weibo data")
+        Actor.log.info('apify push data done')
 
         # Save to dataset
         await Actor.push_data(weibo_data)
