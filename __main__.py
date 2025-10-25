@@ -1,5 +1,5 @@
 import asyncio
-from .main import main
+from .weibo_actor import main
 
 # Execute the Actor entry point.
 asyncio.run(main())
