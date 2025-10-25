@@ -20,4 +20,5 @@ async def main() -> None:
     """
     async with Actor:
         Actor.log.info('Hello from the Actor!')
+        Actor.push_data({"test":"213"})
         # Write your code here
